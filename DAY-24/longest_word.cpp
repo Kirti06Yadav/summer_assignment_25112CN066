@@ -6,7 +6,7 @@ int main()
 {
     string str;
     cout << "ENTER A SENTENCE: ";
-    cin >> str;
+    getline(cin,str);
 
     str += ' ';  // Add space at the end
     string word = "", longest = "";
