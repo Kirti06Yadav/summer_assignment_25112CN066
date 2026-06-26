@@ -19,8 +19,8 @@ int main() {
 
     //storing elements of first matrix
     cout << "ENTER ELEMENTS OF FIRST MATRIX:\n";
-    for(int i=0; i<r; i++){
-        for(int j=0; j<c; j++){
+    for(int i=0; i<r1; i++){
+        for(int j=0; j<c1; j++){
             cout << "ENTER ELEMENT a " << i+1 << j+1 << ":";
             cin >> a[i][j];
         }
@@ -28,8 +28,8 @@ int main() {
 
     //storing elements of second matrix
     cout << "ENTER ELEMENTS OF SECOND MATRIX:\n";
-    for(int i=0; i<r; i++){
-        for(int j=0; j<c; j++){
+    for(int i=0; i<r2; i++){
+        for(int j=0; j<c2; j++){
             cout << "ENTER ELEMENT b " << i+1 << j+1 << ":";
             cin >> b[i][j];
         }
